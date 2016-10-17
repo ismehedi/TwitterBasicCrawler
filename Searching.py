@@ -1,7 +1,5 @@
-try:
-    import json
-except ImportError:
-    import simplejson as json
+
+import simplejson as json
 import urllib2
 import urllib
 import codecs
@@ -15,7 +13,7 @@ from tweepy.parsers import RawParser
 import sys
 
 
-fhLog = codecs.open("myLOG.txt",'a','UTF-8')
+fhLog = codecs.open("myLOGfile.txt",'a','UTF-8')
 def logPrint(s):
 	fhLog.write("%s\n"%s)
 	print (s)
