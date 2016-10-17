@@ -1,7 +1,4 @@
-try:
-    import json
-except ImportError:
-    import simplejson as json
+import simplejson as json
 import codecs
 import time
 import datetime
